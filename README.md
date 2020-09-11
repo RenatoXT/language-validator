@@ -4,10 +4,10 @@ This project just solve the `Balanced Parentheses Problem` considering the langu
 
 ## Running the project :scroll:
 
-  - I ran this program using node `v12.16.2` but since I did not use any specific feature possibly this should not be a requirement. (Just remember that ES6 features was introduced in node environment `v4.3.2`)
-  - In root project folder just execute ***`node src`***
+  - I ran this program using node `v12.16.2` but since I did not use any specific feature possibly this should not be a requirement. (Just remember that *ES6 features* was introduced into Node in version `v4.3.2`)
+  - In root project folder execute ***`node src`***
 
-The expected output in your stdout is :
+The expected output in your stdout is:
 
                 Input processada: [](){}
                 == OK == Válido
