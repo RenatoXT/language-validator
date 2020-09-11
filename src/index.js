@@ -1,5 +1,5 @@
 const readline = require('readline')
-const LanguageValidator = require('./LanguageValidator')
+const LanguageValidator = require('./classes/LanguageValidator')
 
 const rl = readline.createInterface({
   input: process.stdin,

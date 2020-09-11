@@ -7,7 +7,7 @@ class LanguageValidator {
 
       const isValidInput = input.match(/[\{\}\[\]\<>()]+/)
 
-      if(!isValidInput) return false
+      if(!isValidInput || input.length == 1) return false
 
       input = input.replace(/\s/g, '');
       console.log(`Input processada: ${input}`)
