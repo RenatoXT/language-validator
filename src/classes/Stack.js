@@ -1,18 +1,26 @@
+class Node {
+  constructor(value){
+    this.value = value
+    this.next = null
+  }
+}
+
 class Stack {
   constructor() {
-    this.data = []
-    this.top = 0
+    this.top = null
   }
 
   push(elem) {
-    this.data.push(elem)
-    this.top++
+    const node = new Node(elem)
+    node.next = this.top 
+    this.top = node
   }
 
   pop() {
-    if (this.data.length !== 0) {
-      this.top--
-      return this.data.pop()
+    if (this.top) {
+      const value = this.top.value
+      this.top = this.top.next
+      return value
     }
   }
 }
